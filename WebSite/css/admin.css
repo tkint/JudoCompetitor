@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+#stats {
+	border-collapse: separate;
+	background: #004444;
+	width: 100%;
+}
+
+#stats tr:nth-child(odd) {
+	background: #339966;
+}
+
+#stats tr:nth-child(even) {
+	background: #337766;
+}
+
+#stats tr:nth-child(1) {
+	background: #0088AA;
+	text-align: center;
+}
+
+#stats td {
+	width: 12.5%;
+	padding: 3px;
+}
+
+#stats td:nth-child(even) {
+	text-align: center;
+}

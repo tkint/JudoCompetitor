@@ -1,0 +1,2 @@
+Vous voici arrivé sur le site competitor.fr, là où les judokas peuvent préparer leurs compétitions.
+Attention, ce n'est qu'une interface administrative! Pas d'entraînement physique ou de cardio sur ce site.

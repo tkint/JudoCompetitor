@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+
+#liste {
+	border-collapse: separate;
+	background: #004444;
+	width: 100%;
+}
+
+#liste tr:nth-child(odd) {
+	background: #339966;
+}
+
+#liste tr:nth-child(even) {
+	background: #337766;
+}
+
+#liste tr:nth-child(1) {
+	background: #0088AA;
+	text-align: center;
+}
+
+#liste td {
+	padding: 3px;
+}
+
+#liste td:nth-child(1) {
+	width: 20px;
+}
+
+#liste td:nth-child(1) img {
+	width: 20px;
+}
+
+#membre {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	padding: 0px;;
+}
+
+.membre_part {
+	width: 100%;
+	background: #004444;
+}
+
+.membre_part tr:nth-child(odd) {
+	background: #339966;
+}
+
+.membre_part tr:nth-child(even) {
+	background: #337766;
+}
+
+.membre_part tr:nth-child(1) {
+	background: #0088AA;
+	text-align: center;
+}
+
+.membre_part td {
+	padding: 5px;
+}
+
+.membre_part td:first-child {
+	width: 30%;
+}
+
+#membre select:disabled {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: inherit;
+	background: inherit;
+	color: inherit;
+	text-shadow: inherit;
+	cursor: text;
+}
+
+#membre input:disabled {
+	border: inherit;
+	background: inherit;
+	color: inherit;
+	text-shadow: inherit;
+	cursor: text;
+}

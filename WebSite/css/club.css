@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+#listeClubs {
+	border-collapse: separate;
+	background: #004444;
+	width: 100%;
+}
+
+#listeClubs tr:nth-child(odd) {
+	background: #339966;
+}
+
+#listeClubs tr:nth-child(even) {
+	background: #337766;
+}
+
+#listeClubs tr:nth-child(1) {
+	background: #0088AA;
+	text-align: center;
+}
+
+#listeClubs td {
+	padding: 3px;
+}

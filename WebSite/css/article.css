@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+#article {
+	width: 100%;
+	background: #007777;
+}
+
+#article tr:first-child {
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#article tr:nth-child(2), #article tr:nth-child(3) {
+	text-align: right;
+}
+
+#article tr:last-child {
+	width: 100%;
+	text-align: center;
+}
+
+#article pre {
+	padding: 10px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	text-align: justify;
+}
+
+#listeArticles {
+	border-collapse: separate;
+	background: #004444;
+	width: 100%;
+}
+
+#listeArticles tr:nth-child(odd) {
+	background: #339966;
+}
+
+#listeArticles tr:nth-child(even) {
+	background: #337766;
+}
+
+#listeArticles tr:nth-child(1) {
+	background: #0088AA;
+	text-align: center;
+}
+
+#listeArticles td {
+	padding: 3px;
+}
+
+#listeCategories {
+	border-collapse: separate;
+	background: #004444;
+	text-align: center;
+	width: 100%;
+}
+
+#listeCategories tr:nth-child(odd) {
+	background: #339966;
+}
+
+#listeCategories tr:nth-child(even) {
+	background: #337766;
+}
+
+#listeCategories tr:nth-child(1) {
+	background: #0088AA;
+	text-align: center;
+}
+
+#listeCategories td {
+	padding: 3px;
+}
+
+#comments, #comments table {
+	width: 100%;
+}
+
+#comments td:nth-child(2) {
+	width: 85%;
+}

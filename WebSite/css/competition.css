@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+#reservation {
+	text-align: center;
+	background-color: #006666;
+	border-radius: 5px;
+}
+
+#reservation img:hover {
+	cursor: pointer;
+}
+
+#cal,#resa {
+	background-color: #0099AA;
+	border-radius: 5px;
+}
+
+#resa td {
+	border-radius: 5px;
+}
+
+#resa  input,option,select,textarea {
+	width: 100%;
+	color: white;
+	text-shadow: 1px 1px black;
+	border-radius: 5px;
+	background-color: #008888;
+	border-color: #008888;
+	resize: none;
+}
+
+#resa input:hover,option:hover,select:hover,textarea:hover {
+	width: 100%;
+	color: white;
+	text-shadow: 1px 1px black;
+	background-color: #0088BB;
+	border-color: #0088BB;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#cal td {
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#select {
+	background-color: #0066AA;
+}
+
+#select:hover {
+	background-color: #0066FF;
+	cursor: pointer;
+}
+
+.jours:hover {
+	background-color: #00AAAA;
+	cursor: pointer;
+}
+
+.disable {
+	color: #0099AA;
+	text-shadow: 1px 1px #222;
+	cursor: default;
+}
+
+.dimanche {
+	background-color: #007788;
+	cursor: default;
+}
+
+#listRankCompet {
+	font-size: 12px;
+}
+
+#listecompetitions {
+	border-collapse: separate;
+	text-align: center;
+	background: #004444;
+	width: 100%;
+}
+
+#listecompetitions tr:nth-child(odd) {
+	background: #339966;
+}
+
+#listecompetitions tr:nth-child(even) {
+	background: #337766;
+}
+
+#listecompetitions tr:nth-child(1) {
+	background: #0088AA;
+	text-align: center;
+}
+
+#listecompetitions td {
+	padding: 3px;
+}
+
+#listeresultats {
+	border-collapse: separate;
+	text-align: center;
+	background: #004444;
+	width: 100%;
+}
+
+#listeresultats tr:nth-child(odd) {
+	background: #339966;
+}
+
+#listeresultats tr:nth-child(even) {
+	background: #337766;
+}
+
+#listeresultats tr:nth-child(1) {
+	background: #0088AA;
+	text-align: center;
+}
+
+#listeresultats td {
+	padding: 3px;
+}

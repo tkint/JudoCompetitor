@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+#messagerie {
+	width: 100%;
+}
+
+#messagerie textarea {
+	width: 99%;
+	height: 200px;
+}
+
+#listmessages {
+	width: 20%;
+	background: #339966;
+}
+
+#listmessages hr {
+	margin: 0px;
+}
+
+#message {
+	width: 100%;
+	text-align: left;
+	background: #339966;
+}
+
+#corpsmessage {
+	width: 100%;
+}
+
+#corpsmessage tr:nth-child(-n+3) td:first-child {
+	width: 5%;
+}
+
+#corpsmessage tr:last-child td {
+	
+}

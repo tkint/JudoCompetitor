@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Competitor</string>
+    <!-- Accueil -->
+    <string name="h_menu">Menu Principal</string>
+    <string name="h_articles">Articles</string>
+    <string name="h_users">Membres</string>
+    <string name="h_compet">Compétitions</string>
+    <string name="h_results">Résultats</string>
+    <string name="h_connect">Connexion</string>
+    <string name="h_disconnect">Déconnexion</string>
+    <string name="h_about">A Propos</string>
+    <!-- Connexion -->
+    <string name="c_login">Identifiant</string>
+    <string name="c_password">Mot de passe</string>
+    <string name="c_button">Connexion</string>
+    <!-- A Propos -->
+    <string name="p_credit">Auteur:\nThomas KINT\nBTS SIO - SLAM\nSession 2016</string>
+    <string name="p_application">\nApplication:\nCompetitor\n2015 - 2016</string>
+    <string name="p_description">
+        L\'application Competitor est dédiée à la consultation de données provenant du site judo-competitor.fr
+        dont voici les fonctionnalités:\n
+        \n - Consultation des articles du site
+        \n - Consultation des membres
+        \n - Consultation du calendrier des compétitions
+        \n - Consultation des résultats des compétitions passées
+        \n - Consultation des données personnelles
+        \n\nNotez bien que certaines de ces fonctionnalités sont soumises à habilitation. Si vous désirez
+        les consulter, il vous faudra créer un compte en allant sur le site internet.\n
+    </string>
+    <string name="p_session_default">Vous n\'êtes pas connecté</string>
+    <string name="p_session">Vous êtes connecté en tant que </string>
+    <!-- Resultats -->
+    <string name="r_place">Place</string>
+    <string name="r_judoka">Judoka</string>
+    <string name="r_fights">Combats</string>
+    <string name="r_wins">Victoires</string>
+    <string name="r_looses">Défaites</string>
+    <string name="r_points">Points</string>
+</resources>
